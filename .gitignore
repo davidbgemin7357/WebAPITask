@@ -1,0 +1,65 @@
+############################
+# Visual Studio / IDE Files
+############################
+.vs/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+*.vsp
+*.userprefs
+*.tmp
+*.log
+
+################
+# Build Outputs
+################
+bin/
+obj/
+
+# Rider
+.idea/
+.rd/
+*.csproj.user
+*.resharper
+
+# VS Code
+.vscode/
+
+############################
+# Package and Restore
+############################
+# NuGet packages
+packages/
+# The project-level packages folder used by some older projects
+**/packages/
+# Local NuGet package cache
+.nuget/
+.nupkg/
+
+############################
+# User Secrets and Config
+############################
+appsettings.Development.json
+appsettings.Staging.json
+appsettings.Production.json
+appsettings.json.user
+web.config.user
+*.pubxml
+*.user.user
+
+############################
+# Other Temporary Files
+############################
+# Database files
+*.mdf
+*.ldf
+*.sdf
+# Test results
+TestResults/
+# Compiled files
+*.dll
+*.exe
+# Temp files from code generation
+*.g.cs
+*.g.i.cs
