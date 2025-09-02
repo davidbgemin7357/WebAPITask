@@ -96,5 +96,11 @@ namespace WebAPITask.Controllers
                 return StatusCode(500, new { success = false, message = "Error interno del servidor", error = ex.Message });
             }
         }
+
+        [HttpGet("ping")]
+        public IActionResult Ping()
+        {
+            return Ok("Pong!");
+        }
     }
 }
